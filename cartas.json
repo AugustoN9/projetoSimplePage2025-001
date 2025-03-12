@@ -1,0 +1,101 @@
+{
+    "cartas" : [
+        {
+            "name": "InosukeHashibira",
+            "img": "image/InosukeHashibira.jpg"
+        },
+        {
+            "name": "MitsuriKanroji",
+            "img": "image/MitsuriKanroji.jpg"
+        },
+        {
+            "name": "NezukoKamado",
+            "img": "image/NezukoKamado.jpg"
+        },
+        {
+            "name": "InosukeHashibira",
+            "img": "image/InosukeHashibira.jpg"
+        },
+        {
+            "name": "MitsuriKanroji",
+            "img": "image/MitsuriKanroji.jpg"
+        },
+        {
+            "name": "NezukoKamado",
+            "img": "image/NezukoKamado.jpg"
+        },
+        {
+            "name": "ShinobuKochō",
+            "img": "image/ShinobuKochō.jpg"
+        },
+        {
+            "name": "TanjirōKamado",
+            "img": "image/TanjirōKamado.jpg"
+        },
+        {
+            "name": "TengenUzui",
+            "img": "image/TengenUzui.png"
+        },
+        {
+            "name": "ShinobuKochō",
+            "img": "image/ShinobuKochō.jpg"
+        },
+        {
+            "name": "TanjirōKamado",
+            "img": "image/TanjirōKamado.jpg"
+        },
+        {
+            "name": "TengenUzui",
+            "img": "image/TengenUzui.png"
+        },
+        {
+            "name": "Daki+Gyutaro",
+            "img": "image/Daki+Gyutaro.png"
+        },
+        {
+            "name": "KyōjurōRengoku",
+            "img": "image/KyōjurōRengoku.jpg"
+        },
+        {
+            "name": "Akaza",
+            "img": "image/Akaza.png"
+        },
+        {
+            "name": "Daki+Gyutaro",
+            "img": "image/Daki+Gyutaro.png"
+        },
+        {
+            "name": "KyōjurōRengoku",
+            "img": "image/KyōjurōRengoku.jpg"
+        },
+        {
+            "name": "Akaza",
+            "img": "image/Akaza.png"
+        },
+        {
+            "name": "ZenitsuAgatsuma",
+            "img": "image/ZenitsuAgatsuma.jpg"
+        },
+        {
+            "name": "GiyuTomioka",
+            "img": "image/GiyuTomioka.png"
+        },
+        {
+            "name": "HaganezukaTanjiro",
+            "img": "image/HaganezukaTanjiro.png"
+        },
+        {
+            "name": "ZenitsuAgatsuma",
+            "img": "image/ZenitsuAgatsuma.jpg"
+        },
+        {
+            "name": "GiyuTomioka",
+            "img": "image/GiyuTomioka.png"
+        },
+        {
+            "name": "HaganezukaTanjiro",
+            "img": "image/HaganezukaTanjiro.png"
+        }
+    ]
+}
+

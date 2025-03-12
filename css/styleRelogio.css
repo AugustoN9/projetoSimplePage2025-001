@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@100&display=swap");
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  -height: 100vh;
+  background: #bdc3c7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c3e50,
+    #bdc3c7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c3e50,
+    #bdc3c7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#main {
+  width: 70%;
+  margin-left: 15%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#main img {
+  width: 7.5rem;
+  padding: 0;
+}
+
+.local {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cidade-estado {
+  font-size: 4rem;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+#bairro,
+#diaDaSemana {
+  font-size: 2.7rem;
+  font-style: oblique;
+  letter-spacing: 0.9rem;
+  color: #ffff00;
+  padding: 0 0 1.7rem 0;
+}
+
+#container {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+
+#box1,
+#box2,
+#box3,
+#box4,
+#box5,
+#box6,
+#box7,
+#box8,
+#box9 {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 20%;
+  width: 10.5rem;
+  height: 10.5rem;
+  font-size: 4.125rem;
+  border-radius: 0.9rem;
+  box-shadow: 6px 10px 15px 1px rgb(8, 0, 0, 0.507);
+}
+
+#box2 h1,
+#box3 h1 {
+  font-style: normal;
+  font-size: 1.8rem;
+  color: #4b534b;
+}
+
+#box2 h2,
+#box3 h3 {
+  font-style: normal;
+  font-size: 1.4rem;
+  color: #4b534b;
+}
+
+#icon-animado {
+  margin-top: -30px;
+}
+
+#temperatura-valor {
+  font-style: normal;
+  font-size: 2.4rem;
+  color: #4b534b;
+}
+
+#temperatura-descricao {
+  font-style: normal;
+  font-size: 0.9rem;
+  color: #4b534b;
+}
+
+#box1 {
+  background-color: #f6feff;
+  color: azure;
+  border-bottom: 6.25rem solid #f6feff;
+}
+#box2 {
+  background-color: #f6feff;
+  color: azure;
+  border-bottom: 6.25rem solid #f6feff;
+}
+#box3 {
+  background-color: #f6feff;
+  color: azure;
+  border-bottom: 6.25rem solid #f6feff;
+}
+#box4 {
+  background-color: #060a47;
+  color: azure;
+  border-bottom: 6.25rem solid #062247;
+}
+#box5 {
+  background-color: #060a47;
+  color: azure;
+  border-bottom: 6.25rem solid #062247;
+}
+#box6 {
+  background-color: #060a47;
+  color: azure;
+  border-bottom: 6.25rem solid #062247;
+}
+#box7 {
+  background-color: #f7444e;
+  color: azure;
+  border-bottom: 6.25rem solid #dd4249;
+}
+#box8 {
+  background-color: #78bcc4;
+  color: azure;
+  border-bottom: 6.25rem solid #6fb2b9;
+}
+#box9 {
+  background-color: #002c3e;
+  -background-image: url("../animated/cloudy-day-1.svg");
+  color: azure;
+  border-bottom: 6.25rem solid #022431;
+}
+
+#footer {
+  width: 100vw;
+  height: 12%;
+}
+
+#footer h1 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-style: oblique;
+  text-align: center;
+  padding: 3rem 0 3rem 0;
+  margin-top: 5rem;
+  background-color: rgb(65, 41, 41);
+}
+
+@media (max-width: 815px) {
+  #cidade-estado {
+    font-size: 3rem;
+  }
+  #bairro {
+    font-size: 2rem;
+  }
+
+  #box #vento-velocidade h1 {
+    font-size: 0.9rem;
+  }
+
+  #box1,
+  #box2,
+  #box3,
+  #box4,
+  #box5,
+  #box6,
+  #box7,
+  #box8,
+  #box9 {
+    width: 9.5rem;
+    height: 9.5rem;
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 488px) {
+  #cidade-estado {
+    font-size: 1.5rem;
+  }
+  #bairro {
+    font-size: 1rem;
+  }
+
+  #temperatura-valor {
+    font-size: 1rem;
+  }
+
+ #icon-animado {
+    margin-top: -15px;
+ }
+
+ img#icon-animado {
+    width: 64px;
+    height: 64px;
+ }
+  
+  #box2 h2,
+  #box3 h1,
+  #box3 h3 {
+    font-size: .7rem;
+  }
+
+  #vento-velocidade h1 {
+    font-size: 0.9rem;
+  }
+
+  #icon-animado img{
+    width: 64px;
+    }
+
+  #temperatura-descricao h3 {
+    font-size: 7px;
+  }
+
+  #box1,
+  #box2,
+  #box3,
+  #box4,
+  #box5,
+  #box6,
+  #box7,
+  #box8,
+  #box9 {
+    width: 5.5rem;
+    height: 5.5rem;
+    font-size: 2.3rem;
+    border-bottom: 5.25rem;
+  }
+}

@@ -1,0 +1,48 @@
+
+.relogio{
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    display: flex;
+    border: 2px solid black;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+ 
+.containerClock{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:15px;
+}
+.box1, .box2, .box3 {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 20%;
+    width: 200px;
+    height: 200px;
+    font-size: 10rem;    
+    border-radius: 0.9rem;
+    box-shadow: 6px 10px 15px 1px rgb(8,0,0,0.507);
+}
+.box1 {
+    background-color: #f7444e;
+    color: azure;
+    border-bottom: 100px solid #dd4249;
+}
+.box2 {
+    background-color: #78bcc4;
+    color: azure;
+    border-bottom: 100px solid #6fb2b9;
+}
+.box3 {
+    background-color: #002c3e;
+    color: azure;
+    border-bottom: 100px solid #022431;
+}
